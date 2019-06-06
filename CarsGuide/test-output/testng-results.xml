@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="24140" started-at="2019-06-06T16:19:34Z" finished-at="2019-06-06T16:19:59Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.carsguide.com.au.CarsGuide.TestRunner@589838eb]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="24140" started-at="2019-06-06T16:19:34Z" finished-at="2019-06-06T16:19:59Z">
+      <class name="com.carsguide.com.au.CarsGuide.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.carsguide.com.au.CarsGuide.TestRunner@589838eb]" name="setUpClass" is-config="true" duration-ms="257" started-at="2019-06-06T16:19:34Z" finished-at="2019-06-06T16:19:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.carsguide.com.au.CarsGuide.TestRunner@589838eb]" name="feature" duration-ms="23739" started-at="2019-06-06T16:19:35Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-06-06T16:19:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Search car on Car guide website]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.carsguide.com.au.CarsGuide.TestRunner@589838eb]" name="tearDownClass" is-config="true" duration-ms="4" started-at="2019-06-06T16:19:59Z" finished-at="2019-06-06T16:19:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.carsguide.com.au.CarsGuide.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
