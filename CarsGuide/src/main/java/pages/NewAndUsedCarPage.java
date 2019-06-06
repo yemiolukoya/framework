@@ -8,8 +8,7 @@ import org.openqa.selenium.support.ui.Select;
 
 public class NewAndUsedCarPage {
 
-	//driver
-	WebDriver driver;
+		WebDriver driver;
 
 	@FindBy(id = "makes")
 	public WebElement makeDropDown;
