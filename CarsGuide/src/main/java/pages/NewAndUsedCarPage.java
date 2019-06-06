@@ -8,6 +8,7 @@ import org.openqa.selenium.support.ui.Select;
 
 public class NewAndUsedCarPage {
 
+	//driver
 	WebDriver driver;
 
 	@FindBy(id = "makes")
